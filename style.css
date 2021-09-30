@@ -76,6 +76,9 @@
   }
   
   #content {
+    width: 70%;
+    margin: auto;
+    justify-items: center;
   }
   
   /* Animations */
