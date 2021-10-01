@@ -36,7 +36,7 @@
   #intro {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(https://coco555-cyber.github.io/Fake-Business-Website/images/spaceChaseNewFinal.png);
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(/images/spaceChaseNewFinal.png);
     background-size: cover;
     background-position: center;
     position: relative;
