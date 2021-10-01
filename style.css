@@ -1,116 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Space Grotesk", sans-serif;
-    scroll-behavior: smooth;
-    scroll-padding: 50px;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding: 50px;
+}
+
+/* Navbar Start */
+header {
+  padding: 0px;
+  top: 0px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+#navbar {
+  float: right;
+}
+
+#navbar ul {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 30%;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Navbar End */
+
+/* Beginning Background Start */
+#intro {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(https://cdn.glitch.com/cec5dc3b-b268-40ae-b205-610e5be7f241%2FspaceChaseNewFinal.png?v=1633036378714);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+#slider-text1 {
+  animation: slide 5s infinite;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider {
+  height: 96px;
+  padding-left: 20px;
+  padding: 2px 15px;
+  text-align: center;
+}
+
+/* Beginning Background End */
+
+/* Main Section Start */
+
+/* Text Classes Start */
+.title {
+  background: black;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.heading {
+  width: 60%;
+  margin: auto;
+}
+
+.text {
+  padding: 15px 0;
+  width: 60%;
+  margin: auto;
+}
+
+footer {
+}
+/* Text Classes End */
+
+#content {
+  margin: auto;
+  justify-items: center;
+}
+
+#content section {
+}
+
+/* Animations */
+@keyframes slide {
+  0% {
+    margin-top: -287px;
   }
-  
-  /* Elements */
-  header {
-    padding: 0px;
-    top: 0px;
-    position: fixed;
-    background: rgba(0, 0, 0, .8) ;
-    width: 100%;
+  33% {
+    margin-top: -194px;
   }
-  
-  footer {
-    
+  66% {
+    margin-top: -97px;
   }
-  
-  /* IDs */
-  #navbar {
-    float: right;
+  100% {
+    margin-top: 0px;
   }
-  
-  #navbar ul {
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  
-  #navbar li {
-    list-style: none;
-    padding: 0 25%;
-  }
-  
-  #intro {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(https://cdn.glitch.com/cec5dc3b-b268-40ae-b205-610e5be7f241%2FspaceChaseNewFinal.png?v=1633036378714);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    color: white;
-    font-size: 75px;
-    font-weight: bold;
-  }
-  
-  #slider-text1 {
-    animation: slide 5s infinite;
-  }
-  
-  /* Classes */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .slider-wrapper {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .slider {
-    height: 96px;
-    padding-left: 20px;
-    padding: 2px 15px;
-    text-align: center;
-  }
-  
-  .nav-link {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-  }
-  
-  .title {
-    background: black;
-    color: white;
-    padding: 15px 0;
-    width: 100%;
-  }
-  
-  .heading {
-    width: 70%;
-    margin: auto;
-  }
-  
-  .text {
-    padding: 15px 0;
-    width: 70%;
-    margin: auto;
-  }
-  
-  #content {
-    margin: auto;
-    justify-items: center;
-  }
-  
-  #content section {
-    
-  }
-  
-  /* Animations */
-  @keyframes slide {
-    0% {margin-top: -287px;}
-    33% {margin-top: -194px;}
-    66% {margin-top: -97px;}
-    100%  {margin-top: 0px;}
-  }
+}
