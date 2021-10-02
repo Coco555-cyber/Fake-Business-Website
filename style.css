@@ -13,7 +13,7 @@ header {
   top: 0px;
   display: flex;
   position: fixed;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   justify-content: flex-end;
   align-items: center;
@@ -137,30 +137,44 @@ header img {
   font-style: italic;
 }
 
+strong {
+  text-decoration: underline;
+}
+
 footer {
   background: black;
   color: white;
   padding: 20px;
   line-height: 2;
 }
+
 /* Text Classes End */
+
+/* Specific Sections Start */
+
+/* Specific Sections End */
 
 #content {
   margin: auto;
   justify-items: center;
 }
 
+/* Main Section End */
+
 /* Animations */
 @keyframes slide {
   0% {
     margin-top: -287px;
   }
+
   33% {
     margin-top: -194px;
   }
+
   66% {
     margin-top: -97px;
   }
+
   100% {
     margin-top: 0px;
   }
