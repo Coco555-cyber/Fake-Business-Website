@@ -95,8 +95,14 @@ header img {
 .slider {
   height: 96px;
   padding-left: 20px;
-  padding: 2px 15px;
+  padding: 2px 0px 2px 15px;
   text-align: center;
+}
+
+.sub-intro {
+  color: white;
+  margin-top: 60px;
+  font-size: 25px;
 }
 
 /* Beginning Background End */
