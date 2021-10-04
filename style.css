@@ -172,6 +172,32 @@ footer {
 
 /* Specific Sections Start */
 
+/* About Boxes Start */
+#box-container {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.about-box {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.box-heading {
+  padding: 5px;
+  color: white;
+  background: black;
+}
+
+/* About Boxes End */
+
+/* Clients Start */
 #clients {
   padding: 15px 0;
   width: 60%;
@@ -183,6 +209,8 @@ footer {
 #clients li {
   margin-left: 20px;
 }
+
+/* Clients End */
 
 /* Specific Sections End */
 
