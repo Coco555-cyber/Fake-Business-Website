@@ -184,7 +184,7 @@ footer {
 
 .about-box {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   text-align: center;
   border: 1px solid black;
 }
@@ -193,6 +193,11 @@ footer {
   padding: 5px;
   color: white;
   background: black;
+}
+
+.box-text {
+  text-align: left;
+  padding: 15px;
 }
 
 /* About Boxes End */
