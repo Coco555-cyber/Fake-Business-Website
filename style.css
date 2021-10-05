@@ -188,6 +188,7 @@ footer {
   width: 25%;
   text-align: center;
   border: 1px solid black;
+  box-shadow: 0px 5px 3px #AAAAAA;
 }
 
 .box-heading {
@@ -200,6 +201,7 @@ footer {
 .box-text {
   text-align: left;
   padding: 15px;
+  line-height: 2;
 }
 
 /* About Boxes End */
