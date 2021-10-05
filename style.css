@@ -19,10 +19,6 @@ header {
   align-items: center;
 }
 
-#navbar {
-  float: right;
-}
-
 header img {
   max-width: 60px;
   margin-right: auto;
@@ -207,24 +203,28 @@ footer {
 /* About Boxes End */
 
 /* Services Start*/
-#services-container {}
+#services-container {
+  width: 60%;
+  padding: 15px 0;
+  margin: auto;
+}
+
+.services-heading {
+  padding: 5px;
+  color: white;
+  background: black;
+  font-size: 25px;
+}
+
+.img-container {
+  display: inline-block;
+}
+
+.img {
+  width: calc(100% / 3);
+}
 
 /* Services End */
-
-/* Clients Start */
-#clients {
-  padding: 15px 0;
-  width: 60%;
-  margin: auto;
-  font-size: 17px;
-  line-height: 1.5;
-}
-
-#clients li {
-  margin-left: 20px;
-}
-
-/* Clients End */
 
 /* Specific Sections End */
 
