@@ -196,7 +196,7 @@ footer {
 
 .box-text {
   text-align: left;
-  padding: 15px;
+  padding: 0 15px;
   line-height: 2;
 }
 
@@ -209,6 +209,11 @@ footer {
   margin: auto;
 }
 
+.part-box {
+  display: flex;
+  width: 100%;
+}
+
 .services-heading {
   padding: 5px;
   color: white;
@@ -216,12 +221,16 @@ footer {
   font-size: 25px;
 }
 
-.img-container {
+.img {
+  width: 100%;
   display: inline-block;
 }
 
-.img {
-  width: calc(100% / 3);
+.services-text {
+  display: inline-block;
+  width: calc(2 * (100% / 3));
+  padding: 15px;
+  font-size: 20px;
 }
 
 /* Services End */
