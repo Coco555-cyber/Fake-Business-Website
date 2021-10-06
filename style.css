@@ -219,6 +219,7 @@ footer {
   color: white;
   background: black;
   font-size: 25px;
+  min-width: 150px;
 }
 
 .img {
