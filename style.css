@@ -232,6 +232,7 @@ footer {
   width: calc(2 * (100% / 3));
   padding: 0 15px;
   font-size: 20px;
+  line-height: 1.7;
 }
 
 /* Services End */
