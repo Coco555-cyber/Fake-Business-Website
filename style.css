@@ -134,10 +134,6 @@ header img {
   font-style: italic;
 }
 
-strong {
-  text-decoration: underline;
-}
-
 .list {
   padding: 15px 0;
   width: 60%;
@@ -229,10 +225,27 @@ footer {
 
 .services-text {
   display: inline-block;
-  width: calc(2 * (100% / 3));
+  width: 50%;
   padding: 0 15px;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.7;
+}
+
+.purchase-button {
+  border: 1px solid #ff5100;
+  padding: 10px;
+  font-size: 20px;
+  text-emphasis-style: bold;
+  color: #ff5100;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin-top: 2%;
+}
+
+.purchase-button:hover {
+  color: #2FDA77;
+  cursor: pointer;
+  border: 1px solid #2FDA77;
 }
 
 /* Services End */
@@ -242,6 +255,7 @@ footer {
 #content {
   margin: auto;
   justify-items: center;
+  background: #ebebeb;
 }
 
 /* Main Section End */
